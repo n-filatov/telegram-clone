@@ -1,0 +1,21 @@
+.content {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1010px;
+  background-color: #fff;
+  border-radius: 0 0 3px 3px;
+  border-left: 1px solid #dfe5ec;
+  border-right: 1px solid #dfe5ec;
+  border-bottom: 1px solid #d2dbe3;
+  height: calc( 100% - 48px - 23px); /* 100% - header-height - bottom height */
+}
+
+.content__sidebar {
+  width: 31%;
+  height: 100%;
+  border-right: 2px solid #E9EBED;
+}
+
+.content__chatbox {
+  width: 69%;
+}

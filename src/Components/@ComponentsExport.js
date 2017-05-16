@@ -1,3 +1,3 @@
 import * as Components from './@ComponentsImport';
 
-export { Components }
+export default Components
