@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  background-color: #5682a3;
+  height: 48px;
+  margin: 0 auto;
+  max-width: 1010px;
+}
+
+.header__wrapper--left {
+  width: 31%;
+}
+
+.header__wrapper--right {
+  width: 69%;
+}
+
+.header__wrapper:hover {
+  cursor: pointer;
+  background-color: #497799;
+}
